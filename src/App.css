@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #03a9f4;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.App {
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 110px;
+}
+
+.radio-station {
+  background: #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.radio-station:active {
+  border: 0.5em solid #000;
+}
+
+.radio-station img {
+  width: 225px;
+}
+
+.playerfooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100;
+  width: 100%;
+  background: #ddd;
+}
